@@ -16,7 +16,7 @@ except ImportError:
     from urllib.parse import quote
 
 try:
-    input_reader = raw_input
+    input_reader = input
 except NameError:
     input_reader = input
 
@@ -1012,7 +1012,7 @@ class Chat(object):
         if first_question:
             session.conversation.append_bot_message(first_question)
 
-        if gui is False:
+        if gui is True:
             chat_handler = self.terminal_chat
         else:
             try:

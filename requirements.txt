@@ -1,0 +1,5 @@
+requests>=2.31.0
+ttkthemes>=3.2.2
+pillow>=9.0.0
+wikipedia>=1.4.0
+customtkinter>=5.2.0
